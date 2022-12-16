@@ -26,7 +26,7 @@ class modelvar :
     Vtot = 200 # total synthesis "chemical" available 
     ʎ = 0.3 # number of excitation events per hour
     L=0.4 # 'boost' from the trigger
-    pr= 0.01 # Probability of differentiation from the excited state
+    pr= 0.005 # Probability of differentiation from the excited state
     ##########################
 #%%Deterministic part of the code#
 def Hill(top, bottom, power):
